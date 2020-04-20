@@ -24,7 +24,7 @@ INSERT INTO Authors (name) VALUES ("George R. R. Martin");
 INSERT INTO Authors (name) VALUES ("Second Author");
 
 INSERT INTO character_books (book_id, character_id) VALUES (1, 1);
-INSERT INTO character_books (character_id, book_id) VALUES (2, 1);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 2);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 2);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
