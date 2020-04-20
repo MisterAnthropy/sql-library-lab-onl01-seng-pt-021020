@@ -8,7 +8,7 @@ INSERT INTO Books (title, year, series_id) VALUES ("First Book", 2002, 2);
 INSERT INTO Books (title, year, series_id) VALUES ("Second Book", 2003, 2);
 INSERT INTO Books (title, year, series_id) VALUES ("Third Book", 2005, 2);
 
-INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Galadriel", "This is Nenya, the Ring of Adamant, and I am its keeper.", "elf", 2, 2);
+INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Lady", "Woof Woof", "direwolf", 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Legolas", "Do not think I won't kill you, dwarf! It would be my pleasure", "elf", 2, 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Frodo Baggins", "I will take the Ring, though I do not know the way...", "hobbit", 2, 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Harry Potter", "Expeliamus!", "human", 1, 1);
