@@ -20,8 +20,8 @@ INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Rub
 INSERT INTO SubGenres (name) VALUES ("medieval");
 INSERT INTO SubGenres (name) VALUES ("space opera");
 
-INSERT INTO Authors (name) VALUES ("J.K. Rowling");
-INSERT INTO Authors (name) VALUES ("J.R.R. Tolkien");
+INSERT INTO Authors (name) VALUES ("George R. R. Martin");
+INSERT INTO Authors (name) VALUES ("Second Author");
 
 INSERT INTO character_books (character_id, book_id) VALUES (1, 1);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 1);
