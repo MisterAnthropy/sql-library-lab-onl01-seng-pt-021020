@@ -11,7 +11,7 @@ INSERT INTO Books (title, year, series_id) VALUES ("Third Book", 2005, 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Lady", "Woof Woof", "direwolf", 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Tyrion Lannister", "A Lannister always pays his debts", "human", 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Daenerys Targaryen", "If I look back I am lost", "human", 1);
-INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Harry Potter", "Expeliamus!", "human", 1, 1);
+INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES (4, "Eddard Stark", "Winter is coming", "human", 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Hermione Granger", "You're going to get yourself killed...", "human", 1, 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Ron Weasley", "I've got a bad feeling about this...", "human", 1, 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Lucius Malfoy", "Die Potter!", "human", 1, 1);
