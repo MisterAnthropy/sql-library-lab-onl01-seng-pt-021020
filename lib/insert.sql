@@ -18,7 +18,7 @@ INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Luc
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Rubeus Hagrid", "Just gotta know how to calm 'em", "half-giant", 1, 1);
 
 INSERT INTO SubGenres (name) VALUES ("medieval");
-INSERT INTO SubGenres (name) VALUES ("Medieval Lore");
+INSERT INTO SubGenres (name) VALUES ("space opera");
 
 INSERT INTO Authors (name) VALUES ("J.K. Rowling");
 INSERT INTO Authors (name) VALUES ("J.R.R. Tolkien");
