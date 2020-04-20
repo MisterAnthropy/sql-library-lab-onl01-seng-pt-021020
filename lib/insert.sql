@@ -15,7 +15,7 @@ INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES (4, "
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character One", "motto one", "cylon", 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character Two", "motto two", "human", 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character Three", "motto three", "cylon", 2);
-INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Rubeus Hagrid", "Just gotta know how to calm 'em", "half-giant", 1, 1);
+INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character Four", "motto four", "cylon", 2);
 
 INSERT INTO SubGenres (name) VALUES ("medieval");
 INSERT INTO SubGenres (name) VALUES ("space opera");
@@ -23,12 +23,12 @@ INSERT INTO SubGenres (name) VALUES ("space opera");
 INSERT INTO Authors (name) VALUES ("George R. R. Martin");
 INSERT INTO Authors (name) VALUES ("Second Author");
 
-INSERT INTO character_books (character_id, book_id) VALUES (1, 1);
+INSERT INTO character_books (book_id, character_id) VALUES (1, 1);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 1);
-INSERT INTO character_books (character_id, book_id) VALUES (3, 1);
-INSERT INTO character_books (character_id, book_id) VALUES (1, 2);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 2);
-INSERT INTO character_books (character_id, book_id) VALUES (3, 2);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
+INSERT INTO character_books (character_id, book_id) VALUES (1, 3);
 INSERT INTO character_books (character_id, book_id) VALUES (1, 3);
 INSERT INTO character_books (character_id, book_id) VALUES (2, 3);
 INSERT INTO character_books (character_id, book_id) VALUES (3, 3);
