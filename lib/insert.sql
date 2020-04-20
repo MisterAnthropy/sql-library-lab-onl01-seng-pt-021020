@@ -14,7 +14,7 @@ INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Dae
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES (4, "Eddard Stark", "Winter is coming", "human", 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character One", "motto one", "cylon", 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character Two", "motto two", "human", 2);
-INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Lucius Malfoy", "Die Potter!", "human", 1, 1);
+INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Character Three", "motto three", "cylon", 2);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Rubeus Hagrid", "Just gotta know how to calm 'em", "half-giant", 1, 1);
 
 INSERT INTO SubGenres (name) VALUES ("medieval");
