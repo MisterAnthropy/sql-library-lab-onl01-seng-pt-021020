@@ -17,7 +17,7 @@ INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Ron
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Lucius Malfoy", "Die Potter!", "human", 1, 1);
 INSERT INTO Characters (name, motto, species, author_id, series_id) VALUES ("Rubeus Hagrid", "Just gotta know how to calm 'em", "half-giant", 1, 1);
 
-INSERT INTO SubGenres (name) VALUES ("Wizardry");
+INSERT INTO SubGenres (name) VALUES ("medieval");
 INSERT INTO SubGenres (name) VALUES ("Medieval Lore");
 
 INSERT INTO Authors (name) VALUES ("J.K. Rowling");
